@@ -8,9 +8,70 @@ body {
 header {
     position: relative;
     height: 90px;
+    padding: 0 221px;
 }
 
 header a#logo {
     display: inline-block;
-    padding: 20px 0;
+    padding: 20px 0px;
+}
+
+main section#slider {
+    position: relative;
+    width: 100%;
+    height: 372px;
+    padding-top: 60px;
+    padding-left: 191px;
+    padding-right: 191px;
+    background-image: url(../img/slider1@1x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+main section#slider div#offer {
+    position: relative;
+    display: inline-block;
+}
+
+main section#slider div#offer h1 {
+    margin: 0;
+}
+
+main section#slider div#offer p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+main section#slider div#offer ul {
+    margin-top: 57px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+main section#slider div#offer ul li {
+    display: inline-block;
+}
+
+main section#slider div#offer ul li a {
+    position: relative;
+    display: inherit;
+    width: 139px;
+    height: 45px;
+    padding-top: 15px;
+    text-align: center;
+    background-position: 0;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+main section#slider div#offer ul li:first-child a {
+    background-image: url('../img/cta-download-en@1x.png');
+    margin-right: 11px;
+}
+
+main section#slider div#offer ul li:last-child a {
+    background-image: url('../img/cta-play-en@1x.png');
 }
