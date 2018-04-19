@@ -75,3 +75,33 @@ main section#slider div#offer ul li:first-child a {
 main section#slider div#offer ul li:last-child a {
     background-image: url('../img/cta-play-en@1x.png');
 }
+
+main section#steps {
+    position: relative;
+    width: 1000px;
+    height: 203px;
+    margin: 0 auto;
+    background-image: url('../img/steps.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+main section#steps div.step {
+    display: inline-block;
+    width: 315px;
+    height: 103px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+main section#steps div.step:first-child {
+    padding-left: 120px;
+}
+
+main section#steps div.step:nth-child(2) {
+    padding-left: 150px;
+}
+
+main section#steps div.step:last-child {
+    padding-left: 195px;
+}
