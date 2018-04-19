@@ -79,7 +79,7 @@ main section#slider div#offer ul li:last-child a {
 main section#steps {
     position: relative;
     width: 1000px;
-    height: 203px;
+    height: 103px;
     margin: 0 auto;
     background-image: url('../img/steps.png');
     background-position: 0 0;
@@ -104,4 +104,25 @@ main section#steps div.step:nth-child(2) {
 
 main section#steps div.step:last-child {
     padding-left: 195px;
+}
+
+main section#steps-details {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+main section#steps-details div.step-detail {
+    position: relative;
+    display: inline-block;
+    width: 247px;
+    text-align: center;
+    vertical-align: top;
+}
+
+main section#steps-details div.step-detail:not(:last-child):after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: url('../img/line.png');
 }
