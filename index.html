@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="css/normalize.css"/>
         <link rel="stylesheet" href="css/main.css"/>
     </head>
-    <body>
+    <body onload="getWeatherInfo()">
         <!-- page header -->
         <header>
             <a id="logo" href=""><img src="img/Logo@1x.png" alt="logo"/></a>
@@ -34,6 +34,17 @@
                         </li>
                     </ul>
                 </div>
+                <!-- Weather widget -->
+                <aside>
+                    <div id="location-name">
+                    </div>
+                    <div id="location-temp">
+                        ..Loading
+                    </div>
+                    <a href="#">
+                        <img src="img/logo-openweathermap.png" alt="Weather map"/>
+                    </a>
+                </aside>
             </section>
             <!-- steps -->
             <section id="steps">

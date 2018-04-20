@@ -76,6 +76,58 @@ main section#slider div#offer ul li:last-child a {
     background-image: url('../img/cta-play-en@1x.png');
 }
 
+main section#slider aside {
+    display: inline-block;
+    float: right;
+    height: 190px;
+    width: 126px;
+    border-radius: 10px;
+    background-image: -moz-linear-gradient( 28deg, rgb(162,198,224) 0%, rgb(76,141,187) 50%, rgb(24,63,106) 100%);
+    background-image: -webkit-linear-gradient( 28deg, rgb(162,198,224) 0%, rgb(76,141,187) 50%, rgb(24,63,106) 100%);
+    background-image: -ms-linear-gradient( 28deg, rgb(162,198,224) 0%, rgb(76,141,187) 50%, rgb(24,63,106) 100%);
+}
+
+main section#slider aside div {
+    text-align: center;
+    margin: 0;
+}
+
+main section#slider aside div#location-name {
+    height: 41px;
+}
+
+main section#slider aside div#location-name p {
+    color: #082d3c;
+}
+
+main section#slider aside div#location-name p:first-child {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+main section#slider aside div#location-temp {
+    height: 121px;
+    line-height: 121px;
+    background-color: #ffffff;
+}
+
+main section#slider aside div#location-temp p {
+    color: rgb(0, 36, 50);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+main section#slider aside div p.weather-info {
+    margin: 0;
+}
+
+main section#slider aside a {
+    width: 100%;
+    padding-top: 7px;
+    display: inline-block;
+    text-align: center;
+}
+
 main section#steps {
     position: relative;
     width: 1000px;
